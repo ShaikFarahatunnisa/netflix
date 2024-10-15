@@ -1,9 +1,14 @@
 body{
-    background-image: url(nback.jpeg);
+    background-color: black;
+}
+.center{
+    background: rgba(0,0,0, 0.6) url(nback.jpeg);
     background-repeat: no-repeat;
     background-size:cover ;
-    background-color: rgb(78, 77, 77);
-  background-blend-mode: multiply;
+    width: 100%;
+    height: 650px;
+    background-blend-mode: darken;
+
 }
 
 .nlogo_pic
@@ -13,7 +18,7 @@ body{
    border-radius: 20px;
    mix-blend-mode:lighten;
     margin-left: 150px;
-    margin-top: -25px;
+    margin-top: 1.5rem;
 }
 #option
 {
@@ -42,9 +47,7 @@ body{
     display: flex;
     justify-content: center;
    align-items: center;
-     width:1000px;
-    height:600px;
-     margin: auto;
+   min-height: 60vh;
 
  }
  center{
@@ -71,12 +74,18 @@ margin-left:-20px;
 #c3
 {
     width:400px;
-    height: 40px;
+    height: 60px;
     border-radius: 15px;
     color: white;
-    background-color: rgb(51, 50, 50,0.5);
+    background-color: rgba(49, 46, 46, 0.727);
     font-size: 20px;
-    padding: 10px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+
+}
+#c3:hover{
+    border: 2px solid white;
 }
 #btn1{
     width:200px;
@@ -86,6 +95,8 @@ margin-left:-20px;
     background-color: red;
     font-size: 20px;
     padding: 10px;
+    border: none;
+    outline: none;
 
 }
 hr{
@@ -128,6 +139,7 @@ border-radius: 5px;
     display: inline;
     justify-content: space-around;
     border-radius: 10px;
+    margin-left: 0.5rem;
 }
 h2
 {
@@ -156,6 +168,34 @@ h2
   
    
 }
+#para2{
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(13, 13, 62);;
+    mix-blend-mode:lighten; 
+    border-radius: 50px;
+   position:relative;
+   bottom: 1.1rem;
+}
+#para3{
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(13, 13, 62);;
+    mix-blend-mode:lighten; 
+    border-radius: 50px;
+    position:relative;
+    top: 1.1rem;
+}
+#para4{
+    width: 60px;
+    height: 60px;
+    background-color:  rgb(13, 13, 62);;
+    mix-blend-mode:lighten; 
+    border-radius: 50px;
+    position:relative;
+    bottom: 1.5rem;
+}
+
 #class
 {
     display:flex;
