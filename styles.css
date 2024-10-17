@@ -103,6 +103,7 @@ hr{
    border:2px solid red;
    size: 40px;
    margin-top:-40px;
+   
 }
 #card1
 {
@@ -200,4 +201,53 @@ h2
 {
     display:flex;
     vertical-align: top;
+}
+#card2
+{
+    color: white;
+}
+#box1
+{
+    width: 1300px;
+    height:40px;
+    background-color:rgb(51, 50, 50);
+    padding: 20px; 
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+#cont1
+{
+    
+    margin-left: 400px;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+#l1,u
+{
+    font-size: 15px;
+    color: rgb(130, 124, 124);
+}
+#end{
+   display:inline-block;
+   vertical-align: top;
+    width: 200px;
+    height:150px;
+  
+    margin: 30px;
+    
+}
+#select
+{
+background-color: black;
+color: white;
+width:100px;
+height:40px;
+display: flex;
+text-align: center;
+border: 1px solid white;
 }
